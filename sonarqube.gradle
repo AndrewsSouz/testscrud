@@ -1,0 +1,9 @@
+
+
+property "sonar.projectKey", "b4a5e1f3f7058a53ec3eb61fa6577d016be1934e" //chave/id único do projeto no dashboard do SonarQube
+property "sonar.language", "java"
+property "sonar.login", "admin"
+property "sonar.password", "260117"
+property "sonar.sources", "src/main/","crud-controller/src/main","crud-service/src/main","crud-model/src/main"
+property "sonar.host.url","http://localhost:9000"
+

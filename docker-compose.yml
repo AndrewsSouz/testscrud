@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  sonarqube:
+    image:  library/sonarqube:8.6-community
+    ports:
+      - "9000:9000"
+
+  db:
+    image:  mongo
+    ports:
+      - "8081:27017"
+
+
+#token sonar
+#9e91cc0ade33a0d0df42d99fcc792e1cdc7dce7a
